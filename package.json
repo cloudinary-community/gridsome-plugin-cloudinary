@@ -2,7 +2,7 @@
   "name": "gridsome-plugin-cloudinary",
   "version": "0.0.1",
   "description": "Gridsome plugin for using Cloudinary-Vue",
-  "main": "index.js",
+  "main": "./src/gridsome.client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
   },
-  "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary#readme"
+  "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary#readme",
+  "dependencies": {
+    "cloudinary-vue": "^1.0.1"
+  }
 }
