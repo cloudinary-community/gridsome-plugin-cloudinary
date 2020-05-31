@@ -1,0 +1,30 @@
+{
+  "name": "gridsome-plugin-cloudinary",
+  "version": "0.0.1",
+  "description": "Gridsome plugin for using Cloudinary-Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayashavin/gridsome-plugin-cloudinary.git"
+  },
+  "keywords": [
+    "Gridsome",
+    "Cloudinary",
+    "Vuejs",
+    "image",
+    "optimizing",
+    "plugin",
+    "video",
+    "cloudinary-vue",
+    "optimization"
+  ],
+  "author": "Maya Shavin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
+  },
+  "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary#readme"
+}
