@@ -7,9 +7,9 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@mayashavin/gridsome-source-cld": "^0.0.4",
+    "@mayas/gridsome-source-cld": "^0.0.4",
     "dotenv": "^8.2.0",
     "gridsome": "^0.7.0"
   },
-  "gitHead": "e0d05ead96beaa650ccca1d440705bacf14a1eb3"
+  "gitHead": "d2769d55a67eadd72c52733e32fe9f90af2a92e7"
 }
