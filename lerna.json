@@ -4,7 +4,7 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.4",
+  "version": "0.0.5",
   "changelog": {
     "repo": "gridsome-plugin-cloudinary",
     "labels": {
