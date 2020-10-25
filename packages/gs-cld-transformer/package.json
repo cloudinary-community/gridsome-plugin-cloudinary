@@ -39,5 +39,8 @@
   "devDependencies": {
     "eslint": "^7.11.0"
   },
-  "gitHead": "d2769d55a67eadd72c52733e32fe9f90af2a92e7"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "291e6e7ad6e034f523882276f8518a85e573b0f9"
 }

@@ -1,6 +1,6 @@
 "use strict";
 
-const api = require("..");
+const api = require("../lib/api");
 
 describe("api", () => {
   it("needs tests");

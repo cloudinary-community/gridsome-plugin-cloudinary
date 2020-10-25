@@ -55,7 +55,7 @@ class CloudinaryApi {
        * @returns {string} Returns the optimized delivery URL for the target image
       */    
       url: (publicId, options = {}) => {
-        return cld.url(publicId, getTransformationOptions(options))
+        return sdk.url(publicId, getTransformationOptions(options))
       },
       /**
        * Generate HTML Element tag for an image with transformation
@@ -64,7 +64,7 @@ class CloudinaryApi {
        * @returns {Object}
        */
       element: (publicId, options = {}) => {
-        return cld.imageTag(publicId, getTransformationOptions(options))
+        return sdk.imageTag(publicId, getTransformationOptions(options))
       },
       /**
        * 
@@ -73,7 +73,7 @@ class CloudinaryApi {
        * @returns {string} Returns the optimized delivery URL for the target image
        */
       fetchRemote: (url, options = {}) => {
-        return cld.url(url, getTransformationOptions({ ...options, type: 'fetch' }))
+        return sdk.url(url, getTransformationOptions({ ...options, type: 'fetch' }))
       }
     }  
 
@@ -85,7 +85,7 @@ class CloudinaryApi {
        * @returns {string} Returns the optimized delivery URL for the target video
       */  
       url(publicId, options) {
-        return cld.video_url(publicId, getTransformationOptions(options))
+        return sdk.video_url(publicId, getTransformationOptions(options))
       },
       /**
        * Generate HTML Element tag for an video with transformation
@@ -94,7 +94,7 @@ class CloudinaryApi {
        * @returns {Object}
        */
       element(publicId, options) {
-        return cld.videoTag(publicId, getTransformationOptions(options))
+        return sdk.videoTag(publicId, getTransformationOptions(options))
       },
       /**
        * Generate thumbnail image of a video based on transformations
@@ -106,7 +106,7 @@ class CloudinaryApi {
         const transformations = getTransformationOptions(options)
 
         return {
-          url: cld.video_thumbnail_url(publicId, transformations),
+          url: sdk.video_thumbnail_url(publicId, transformations),
         }
       } 
     }
@@ -181,8 +181,6 @@ class CloudinaryApi {
 module.exports = CloudinaryApi
 
 module.exports.DELIVERY_TYPES = DELIVERY_TYPES
-
-module.exports.withSnakeCaseKeys = sdk.Util.withSnakeCaseKeys
 
 module.exports.uploadToCloudinary = async (file, publicId, options = {}) => {};
 

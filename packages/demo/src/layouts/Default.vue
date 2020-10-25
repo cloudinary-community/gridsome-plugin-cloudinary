@@ -1,15 +1,13 @@
 <template>
   <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
+    <header class="header px-5 lg:px-56">
+      <g-link to="/" class="md:text-3xl font-semibold capitalize">{{ $static.metadata.siteName }}</g-link>
     </header>
     <slot/>
+    <footer class="mx-auto font-sm w-full text-center p-3">
+      <span>Built by <a href="https://mayashavin.com" target="_blank" rel="noopener noreferrer" class="underline text-indigo-700">Maya Shavin</a></span>
+      <span> © {{(new Date()).getFullYear()}}</span>
+    </footer>
   </div>
 </template>
 
@@ -23,25 +21,18 @@ query {
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  @apply font-livvic;
   margin:0;
   padding:0;
   line-height: 1.5;
 }
 
 .layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  @apply mx-auto;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
+  @apply flex justify-between items-center mb-8 h-20 text-white bg-indigo-600;
 }
 
 .nav__link {

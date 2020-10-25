@@ -5,4 +5,9 @@ exports.DEFAULT_TRANS = {
  quality: 'auto'
 }
 
-exports.DEFAULT_KEYS = ["resourceType", "prefix", "tags", "maxResults", "type", "context"];
+exports.DEFAULT_RESOURCES_FIELDS = ["resourceType", "prefix", "tags", "maxResults", "context"];
+
+exports.RESOURCE_TYPES = {
+ IMAGE: 'image',
+ VIDEO: 'video'
+}

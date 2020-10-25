@@ -1,12 +1,7 @@
 require('dotenv').config();
-// This is where project configuration and plugin options are located.
-// Learn more: https://gridsome.org/docs/config
-
-// Changes here require a server restart.
-// To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Gridsome - Cloudinary Source',
   plugins: [
     {
       use: '@mayas/gridsome-source-cld',
@@ -14,9 +9,20 @@ module.exports = {
         cloudName: process.env.CLOUDNAME,
         apiKey: process.env.API_KEY,
         apiSecret: process.env.API_SECRET,
-        resourceType: "upload",
-        prefix: "articles"
-      }
+        resourceOptions: {
+          type: "upload",
+          prefix: 'examples'
+        },
+        transformations: {
+          width: 300,
+          height: 300,
+          gravity: 'auto:subject',
+          crop: 'fill',
+        }
+      },
+    },
+    {
+      use: "gridsome-plugin-tailwindcss",
     }
   ]
 }

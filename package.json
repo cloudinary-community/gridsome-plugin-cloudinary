@@ -1,7 +1,7 @@
 {
   "name": "gridsome-plugin-cloudinary",
   "version": "0.0.1",
-  "description": "Gridsome plugin for using Cloudinary-Vue",
+  "description": "Cloudinary plugin for Gridsome",
   "main": "./src/gridsome.client.js",
   "private": true,
   "workspaces": [

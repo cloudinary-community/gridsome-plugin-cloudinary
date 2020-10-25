@@ -1,27 +1,42 @@
 <template>
   <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
+    <div class="px-5 lg:px-56 mx-auto">
+      <h1 class="font-semibold px-1 text-2xl mb-5 text-pink-700">Images Gallery Demo</h1>
+      <p class="text-lg mb-5 px-1">
+        A demo <a href="https://gridsome.com" target="_blank" rel="noopener noreferrer" class="underline text-indigo-700">Gridsome</a> site, 
+        with optimized and transformed images served from <a href="https://cloudinary.com" target="_blank" class="underline text-indigo-700" rel="noopener noreferrer">Cloudinary</a>.
+      </p>
+      <ul class="flex flex-wrap">
+        <li v-for="image in images" :key="image.node.public_id" class="p-1">
+          <g-image :src="image.node.url" loading="lazy"/>
+        </li>
+      </ul>
+    </div>
   </Layout>
 </template>
+<page-query>
+query {
+  images: allCldMedia {
+    edges {
+      node {
+        public_id
+        format
+        url
+      }
+    }
+  }
+}  
+</page-query>
 
 <script>
 export default {
   metaInfo: {
     title: 'Hello, world!'
+  },
+  computed: {
+    images() {
+      return this.$page.images.edges
+    }
   }
 }
 </script>
