@@ -1,4 +1,4 @@
-import CloudinaryApi from '@maya/cld-api'
+import CloudinaryApi from '@mayashavin/cld-api'
 
 class CldImagesSource {
   constructor(api, options){

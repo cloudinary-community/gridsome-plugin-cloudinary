@@ -9,7 +9,7 @@ module.exports = {
   siteName: 'Gridsome',
   plugins: [
     {
-      use: '@maya/gridsome-source-cld',
+      use: '@mayashavin/gridsome-source-cld',
       options: {
         cloudName: process.env.CLOUDNAME,
         apiKey: process.env.API_KEY,
