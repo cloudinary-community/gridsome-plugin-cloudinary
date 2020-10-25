@@ -1,6 +1,5 @@
 {
   "name": "demo",
-  "private": true,
   "version": "0.0.2",
   "scripts": {
     "build": "gridsome build",
