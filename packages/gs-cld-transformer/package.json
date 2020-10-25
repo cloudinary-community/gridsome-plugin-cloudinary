@@ -1,6 +1,6 @@
 {
   "name": "@mayashavin/gridsome-transformer-cld",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "Maya Shavin <maya@cloudinary.com>",
   "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/gs-cld-transformer#readme",
