@@ -1,14 +1,14 @@
 {
   "name": "demo",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.1",
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@maya/gridsome-source-cld": "0.0.1",
+    "@maya/gridsome-source-cld": "^0.0.1",
     "dotenv": "^8.2.0",
     "gridsome": "^0.7.0"
   }
