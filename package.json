@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Gridsome plugin for using Cloudinary-Vue",
   "main": "./src/gridsome.client.js",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
