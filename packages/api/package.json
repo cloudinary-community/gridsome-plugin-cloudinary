@@ -1,0 +1,36 @@
+{
+  "name": "@maya/cld-api",
+  "version": "0.0.2",
+  "description": "> TODO: description",
+  "author": "Maya Shavin <maya@cloudinary.com>",
+  "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/api#readme",
+  "license": "MIT",
+  "main": "lib/api.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayashavin/gridsome-plugin-cloudinary.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "chalk": "^4.1.0",
+    "cloudinary": "^1.23.0",
+    "consola": "^2.15.0",
+    "lodash.snakecase": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  }
+}

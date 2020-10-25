@@ -3,31 +3,44 @@
   "version": "0.0.1",
   "description": "Gridsome plugin for using Cloudinary-Vue",
   "main": "./src/gridsome.client.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "lerna run build --stream",
+    "prelint": "yarn build",
+    "lint": "lerna run lint --stream",
+    "preinitial:release": "yarn prerelease",
+    "initial:release": "lerna publish from-package --conventional-commits",
+    "prerelease": "lerna run prerelease --stream",
+    "release": "lerna publish --conventional-commits",
+    "pretest": "yarn build && jest --rootDir __tests__",
+    "test": "lerna run test --stream",
+    "pretest:ci": "yarn pretest",
+    "test:ci": "lerna run test:ci --stream",
+    "prettier": "yarn prettier --write .",
+    "slicemachine": "start-slicemachine --port 9999"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mayashavin/gridsome-plugin-cloudinary.git"
   },
   "keywords": [
-    "Gridsome",
-    "Cloudinary",
-    "Vuejs",
-    "image",
-    "optimizing",
-    "plugin",
-    "video",
-    "cloudinary-vue",
-    "optimization"
+    "gridsome",
+    "gridsome-plugin",
+    "cloudinary"
   ],
-  "author": "Maya Shavin",
+  "author": "Maya Shavin <dpnminh@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
   },
   "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary#readme",
-  "dependencies": {
-    "cloudinary-vue": "^1.0.1"
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "jest": "^26.6.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.1.2"
   }
 }

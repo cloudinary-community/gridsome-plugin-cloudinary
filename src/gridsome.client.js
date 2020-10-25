@@ -1,14 +1,14 @@
 export default function (Vue, options) {
-  const { 
+  const {
     default: Cloudinary,
     CldImage,
     CldTransformation,
     CldVideo,
     CldContext,
-     } = require('cloudinary-vue');  
+  } = require("cloudinary-vue");
 
   Vue.use(Cloudinary, {
     ...options,
-    components: [ CldContext, CldImage, CldTransformation, CldVideo ]
-  })
+    components: [CldContext, CldImage, CldTransformation, CldVideo],
+  });
 }

@@ -1,0 +1,42 @@
+{
+  "name": "@maya/gridsome-transformer-cld",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Maya Shavin <maya@cloudinary.com>",
+  "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/gs-cld-transformer#readme",
+  "license": "MIT",
+  "main": "lib/gs-cld-transformer.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayashavin/gridsome-plugin-cloudinary.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
+  },
+  "dependencies": {
+    "cloudinary": "^1.23.0",
+    "cross-env": "^7.0.2"
+  },
+  "keywords": [
+    "gridsome",
+    "cloudinary",
+    "jamstack",
+    "image",
+    "optimization",
+    "gridsome-plugin",
+    "gridsome-transformer"
+  ],
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  }
+}

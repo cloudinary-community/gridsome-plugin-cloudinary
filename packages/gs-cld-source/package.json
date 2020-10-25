@@ -1,0 +1,44 @@
+{
+  "name": "@maya/gridsome-source-cld",
+  "version": "0.0.1",
+  "description": "Source plugin",
+  "keywords": [
+    "gridsome",
+    "cloudinary",
+    "jamstack",
+    "image",
+    "optimization",
+    "gridsome-plugin",
+    "gridsome-source"
+  ],
+  "author": "Maya Shavin <maya@cloudinary.com>",
+  "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/gs-cld-source#readme",
+  "license": "MIT",
+  "main": "lib/gs-cld-source.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayashavin/gridsome-plugin-cloudinary.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
+  },
+  "dependencies": {
+    "cloudinary-core": "^2.11.3",
+    "cross-env": "^7.0.2",
+    "lodash.snakecase": "^4.1.1",
+    "@maya/cld-api": "0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  }
+}
