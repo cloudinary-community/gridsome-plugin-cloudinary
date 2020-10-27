@@ -1,13 +1,13 @@
 {
   "name": "demo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@mayas/gridsome-source-cld": "^0.0.5",
+    "@mayas/gridsome-source-cld": "^0.0.6",
     "dotenv": "^8.2.0",
     "gridsome": "^0.7.0"
   },
