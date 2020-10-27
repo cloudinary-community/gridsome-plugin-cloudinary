@@ -19,7 +19,6 @@ query {
   images: allCldMedia {
     edges {
       node {
-        public_id
         format
         url
       }

@@ -1,5 +1,12 @@
 const CloudinaryApi = require('@mayas/cld-api')
-const CONSTANTS = require('@mayas/cld-api').CONSTANTS
+const { DEFAULT_TRANS, RESOURCE_TYPES } = require('@mayas/cld-api').CONSTANTS
+
+// TODO
+/**
+ * 1. Export some functionalities for manual usage.
+ * 2. Documentation
+ * 3. Tests
+ */
 
 class CldImagesSource {
   static defaultOptions () {
@@ -18,7 +25,7 @@ class CldImagesSource {
     this._cld = $cloudinary
     this._options = options.resourceOptions || {}
     this._transformations = {
-      ...CONSTANTS.DEFAULT_TRANS,
+      ...DEFAULT_TRANS,
       ...(options.transformations || {})
     }
 
@@ -34,8 +41,8 @@ class CldImagesSource {
 
     try {
       const { resources } = await this._cld.resources(this._options)
-      const resourceType = this._options.resourceType  === CONSTANTS.VIDEO ? CONSTANTS.VIDEO : CONSTANTS.IMAGE
-  
+      const resourceType = this._options.resourceType  === RESOURCE_TYPES.VIDEO ? RESOURCE_TYPES.VIDEO : RESOURCE_TYPES.IMAGE
+
       if (!resources || !resources.length) {
         console.warn('\n ~Yikes! No nodes created because no Cloudinary resources found. Try a different query?');
         return;

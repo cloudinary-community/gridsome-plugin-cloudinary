@@ -1,11 +1,9 @@
-# `gs-cld-source`
+# `@mayas/gridsome-source-cld`
 
 > TODO: description
 
-## Usage
+## Installation
 
-```
-const gsCldSource = require('gs-cld-source');
-
-// TODO: DEMONSTRATE API
+```bash
+yarn add @mayas/gridsome-source-cld
 ```

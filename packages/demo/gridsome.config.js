@@ -11,7 +11,8 @@ module.exports = {
         apiSecret: process.env.API_SECRET,
         resourceOptions: {
           type: "upload",
-          prefix: 'examples'
+          prefix: 'examples',
+          max_results: 30
         },
         transformations: {
           width: 300,
