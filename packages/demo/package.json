@@ -7,14 +7,12 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@cloudinary/base": "^1.0.0-alpha.2",
     "@mayas/gridsome-source-cld": "^0.0.6",
     "dotenv": "^8.2.0",
     "gridsome": "^0.7.0"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "291e6e7ad6e034f523882276f8518a85e573b0f9",
+  "gitHead": "a582d3c99a7bdf144dbb70b8686552a0b75cd815",
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^3.0.1"
   }
