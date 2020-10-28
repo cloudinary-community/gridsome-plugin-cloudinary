@@ -20,7 +20,7 @@
     "pretest:ci": "yarn pretest",
     "test:ci": "lerna run test:ci --stream",
     "prettier": "yarn prettier --write .",
-    "slicemachine": "start-slicemachine --port 9999"
+    "build:demo": "npm --prefix packages/demo run build"
   },
   "repository": {
     "type": "git",
