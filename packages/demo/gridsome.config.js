@@ -12,14 +12,14 @@ module.exports = {
         resourceOptions: {
           type: "upload",
           prefix: 'examples',
-          max_results: 30
+          max_results: 50
         },
-        transformations: {
-          width: 300,
-          height: 300,
-          gravity: 'auto:subject',
-          crop: 'fill',
-        }
+        // transformations: {
+        //   width: 200,
+        //   height: 200,
+        //   gravity: 'auto:subject',
+        //   crop: 'fill',
+        // }
       },
     },
     {
