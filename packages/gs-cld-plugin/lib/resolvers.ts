@@ -1,9 +1,9 @@
-const { CldServerApi } = require('@mayas/cld-api')
+const { CldApi } = require('@mayas/cld-api')
 
 const DEFAULT_FIXED_WIDTH = 400;
 const DEFAULT_BREAKPOINTS = [200, 400, 600]
 
-const instance = new CldServerApi({
+const instance = new CldApi({
   secure: true
 })
 

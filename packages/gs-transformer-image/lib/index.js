@@ -1,9 +1,9 @@
 const {
   GraphQLString,
 } = require('gridsome/graphql')
-const { CldServerApi } = require('@mayas/cld-api')
+const { CldApi } = require('@mayas/cld-api')
 
-const $cloudinary = new CldServerApi({
+const $cloudinary = new CldApi({
   secure: true,
   privateCdn: false
 })

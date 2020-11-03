@@ -30,5 +30,8 @@
     "image",
     "optimization",
     "gridsome-transformer"
-  ]
+  ],
+  "dependencies": {
+    "@mayas/cld-api": "^0.0.6"
+  }
 }
