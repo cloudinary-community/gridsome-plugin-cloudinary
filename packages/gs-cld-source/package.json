@@ -36,7 +36,9 @@
     "@mayas/cld-api": "^0.0.6",
     "cloudinary-core": "^2.11.3",
     "cross-env": "^7.0.2",
-    "lodash.snakecase": "^4.1.1"
+    "lodash.snakecase": "^4.1.1",
+    "webpack-bundle-analyzer": "^3.9.0",
+    "webpack-cli": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^7.11.0"
@@ -44,5 +46,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "291e6e7ad6e034f523882276f8518a85e573b0f9"
+  "gitHead": "a582d3c99a7bdf144dbb70b8686552a0b75cd815"
 }

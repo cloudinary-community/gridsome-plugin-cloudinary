@@ -1,8 +1,7 @@
-const CloudinaryApi = require('@mayas/cld-api')
+const { CldServerApi } = require('@mayas/cld-api')
 const { DEFAULT_TRANS, RESOURCE_TYPES } = require('@mayas/cld-api').CONSTANTS
 
-// TODO
-/**
+/** TODO
  * 1. Export some functionalities for manual usage.
  * 2. Documentation
  * 3. Tests
@@ -17,8 +16,8 @@ class CldImagesSource {
   }
 
   constructor(api, options = {}){
-    const $cloudinary = new CloudinaryApi({
-      ...this.defaultOptions,
+    const $cloudinary = new CldServerApi({
+      ...CldImagesSource.defaultOptions,
       ...options
     })
 

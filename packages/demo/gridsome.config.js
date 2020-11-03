@@ -23,7 +23,42 @@ module.exports = {
       },
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/posts/**/*.md',
+        typeName: 'Post',
+        route: '/blog/:slug'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/images',
+      }
+    },
+    {
+      use: "@mayas/gridsome-plugin-cld",
+      options: {
+        cloudName: process.env.CLOUDNAME,
+        apiKey: process.env.API_KEY,
+        apiSecret: process.env.API_SECRET,
+      }
+    },
+    {
       use: "gridsome-plugin-tailwindcss",
     }
-  ]
+  ],
+  transformers: {
+    image: {      
+      uploadOptions: {
+        folder: 'examples',
+      },
+      loader: {
+        type: 'cloudinary',
+        cloudName: process.env.CLOUDNAME,
+        apiKey: process.env.API_KEY,
+        apiSecret: process.env.API_SECRET,
+      }
+    }
+  }
 }

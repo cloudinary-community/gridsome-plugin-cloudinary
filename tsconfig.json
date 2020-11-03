@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@mayas/api": ["api/lib"],
+      "@mayas/gridsome-source-cld": ["gs-cld-source/lib"],
+      "@mayas/gridsome-plugin-cld": ["gs-cld-plugin/lib"],
+      "@mayas/gridsome-transformer-image": ["gs-transformer-image/lib"]
+    }
+  }
+}

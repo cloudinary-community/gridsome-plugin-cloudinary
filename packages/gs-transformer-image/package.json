@@ -1,9 +1,9 @@
 {
-  "name": "@mayas/gridsome-transformer-cld",
+  "name": "gridsome-transformer-image",
   "version": "0.0.6",
-  "description": "> TODO: description",
+  "description": "Transformer for image node",
   "author": "Maya Shavin <maya@cloudinary.com>",
-  "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/gs-cld-transformer#readme",
+  "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/gridsome-transformer-image#readme",
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {
@@ -23,24 +23,12 @@
   "bugs": {
     "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
   },
-  "dependencies": {
-    "cloudinary": "^1.23.0",
-    "cross-env": "^7.0.2"
-  },
   "keywords": [
     "gridsome",
     "cloudinary",
     "jamstack",
     "image",
     "optimization",
-    "gridsome-plugin",
     "gridsome-transformer"
-  ],
-  "devDependencies": {
-    "eslint": "^7.11.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "291e6e7ad6e034f523882276f8518a85e573b0f9"
+  ]
 }

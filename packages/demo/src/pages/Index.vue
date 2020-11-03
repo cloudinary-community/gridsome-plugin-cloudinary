@@ -81,7 +81,7 @@ import Effect from '@cloudinary/base/actions/effect';
 
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Gridsome - Cloudinary'
   },
   data() {
     return {

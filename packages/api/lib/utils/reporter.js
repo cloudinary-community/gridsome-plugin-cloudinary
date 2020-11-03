@@ -1,4 +1,4 @@
-import consola from 'consola'
+const consola = require('consola')
 
 const reporter = consola.create({
   reporters: [
@@ -8,4 +8,4 @@ const reporter = consola.create({
 
 reporter.withScope('[gridsome:cloudinary]')
 
-exports.reporter = reporter
+exports = reporter

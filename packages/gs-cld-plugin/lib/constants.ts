@@ -1,0 +1,1 @@
+export const CLD_ASSET = 'CldAsset'

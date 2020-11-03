@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-const gsImageNode = require("..");
+const gsImageNode = require('..');
 
-describe("gs-image-node", () => {
-  it("needs tests");
+describe('gs-image-node', () => {
+    it('needs tests');
 });

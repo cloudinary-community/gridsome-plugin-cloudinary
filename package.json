@@ -20,7 +20,18 @@
     "pretest:ci": "yarn pretest",
     "test:ci": "lerna run test:ci --stream",
     "prettier": "yarn prettier --write .",
-    "build:demo": "npm --prefix packages/demo run build"
+    "build:demo": "npm --prefix packages/demo run build",
+    "changelog": "node scripts/changelog.js",
+    "dev:demo": "npm --prefix packages/demo run develop",
+    "explore:demo": "npm --prefix packages/demo run explore",
+    "dev:transformer": "node packages/gs-cld-transformer/example.js",
+    "demo": "yarn workspace demo",
+    "api": "yarn workspace api",
+    "test:api": "npm --prefix packages/api run test:unit",
+    "build:api": "npm --prefix packages/api run build",
+    "build:transformer": "npm --prefix packages/gs-cld-transformer run build",
+    "transformer": "yarn build:api && yarn build:transformer && yarn dev:demo",
+    "source": "yarn build:api && yarn dev:demo"
   },
   "repository": {
     "type": "git",
