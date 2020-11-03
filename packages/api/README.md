@@ -22,7 +22,7 @@ API_SECRET=replace_this_with_your_api_secret_key
 // Any other field
 ```
 
-🛑 _**Remember** to add `.env` to `.gitignore` to avoid committing and pushing this file to remote repo by accident._
+🛑&nbsp; _**Remember** to add `.env` to `.gitignore` to avoid committing and pushing this file to remote repo by accident._
 
 3. Start using 😃
 
@@ -134,7 +134,30 @@ const instance = this.$cloudinary
                 })
 ```
 
-#### `CldApi.resources()`
+#### `CldApi.resources(options)`
+
+* `options`
+  * Type: `Object`
+
+Find and returns the assets stored in Cloudinary based on the options sent. Some options are presented below:
+
+Option | Type | Required | Default | Description
+--- | --- | --- | --- | ---
+`resourceType` | string | Required if use `prefix` | `image` | Type of the stored asset. Can be `image`, `raw` and `video` (including audio).
+`type` | string | Required if use `prefix` | `all` | Storage type of the asset on Cloudinary.
+`maxResults` | number | No | 10 | Max number of resources to query
+`tags` | boolean | No | `false` | Whether to include the list of tags for each resource
+`prefix` | string | No | N/A | the folder to find the match resources.
+`context` | boolean | No | `false` | Specify if the context data per resource should be returned. It is useful for `alt` text, or custo metadata in `key:value` pairs for a resource in Cloudinary.
+
+```js
+const instance = this.$cloudinary
+                .resources({
+                  type: "upload",
+                  prefix: 'examples',
+                  max_results: 50
+                })
+```
 
 #### `CldApi.resource(publicId, options?)`
 
