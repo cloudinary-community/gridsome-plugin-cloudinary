@@ -1,11 +1,13 @@
 {
   "name": "demo",
   "version": "0.0.6",
+  "description": "Demo application for all the plugins of Cloudinary for Gridsome",
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
+  "keywords": ["cloudinary", "gridsome", "image", "optimization", "demo"],
   "dependencies": {
     "@cloudinary/base": "^1.0.0-alpha.2",
     "@gridsome/source-filesystem": "^0.6.2",

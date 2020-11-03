@@ -1,7 +1,7 @@
 {
   "name": "@mayas/gridsome-source-cld",
   "version": "0.0.6",
-  "description": "Source plugin",
+  "description": "Source plugin of Cloudinary for Gridsome",
   "keywords": [
     "gridsome",
     "cloudinary",

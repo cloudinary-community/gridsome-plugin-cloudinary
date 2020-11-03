@@ -1,6 +1,6 @@
 # `gs-image-node`
 
-> TODO: description
+> WIP - Please do not use
 
 ## Usage
 

@@ -1,11 +1,21 @@
-# `gs-cld-transformer`
+# `@mayas/gridsome-plugin-cld`
 
-> TODO: description
+> Cloudinary plugin for Gridsome
 
 ## Usage
 
-```
-const gsCldTransformer = require('gs-cld-transformer');
-
-// TODO: DEMONSTRATE API
+```js
+/*gridsome.config.js*/
+export default {
+  plugins: [
+    {
+      use: "@mayas/gridsome-plugin-cld",
+      options: {
+        cloudName: process.env.CLOUDNAME,
+        apiKey: process.env.API_KEY,
+        apiSecret: process.env.API_SECRET,
+      }
+    },
+  ]
+}
 ```

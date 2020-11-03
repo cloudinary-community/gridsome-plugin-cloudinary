@@ -1,11 +1,10 @@
-# `api`
+# `@mayas/cld-api`
 
-> TODO: description
+> More friendly API Wrapper for Cloudinary
 
 ## Usage
 
-```
-const api = require('api');
+```js
+const api = require('@mayas/cld-api');
 
-// TODO: DEMONSTRATE API
 ```

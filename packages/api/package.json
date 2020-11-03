@@ -1,7 +1,7 @@
 {
   "name": "@mayas/cld-api",
   "version": "0.0.6",
-  "description": "> TODO: description",
+  "description": "More friendly API Wrapper for Cloudinary Node.js",
   "author": "Maya Shavin <maya@cloudinary.com>",
   "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/api#readme",
   "license": "MIT",
@@ -29,14 +29,10 @@
   },
   "dependencies": {
     "@babel/cli": "^7.12.1",
-    "@cloudinary/base": "^1.0.0-alpha.2",
     "chalk": "^4.1.0",
     "cloudinary": "^1.23.0",
     "consola": "^2.15.0",
-    "lodash.compact": "^3.0.1",
-    "lodash.snakecase": "^4.1.1",
-    "webpack-bundle-analyzer": "^3.9.0",
-    "webpack-cli": "^4.1.0"
+    "lodash.snakecase": "^4.1.1"
   },
   "devDependencies": {
     "eslint": "^7.11.0",
