@@ -2,6 +2,6 @@
 
 const gridsomeTransformerImage = require('..');
 
-describe('gridsome-transformer-image', () => {
+describe('@mayas/gridsome-transformer-image', () => {
     it('needs tests');
 });

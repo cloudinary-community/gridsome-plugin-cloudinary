@@ -49,7 +49,7 @@ module.exports = {
     }
   ],
   transformers: {
-    image: {      
+    img: {      
       uploadOptions: {
         folder: 'examples',
       },

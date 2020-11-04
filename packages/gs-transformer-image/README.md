@@ -1,11 +1,11 @@
-# `gridsome-transformer-image`
+# `gridsome-transformer-img`
 
-> Image transformer for Gridsome with options for optimization loader.
+> Images transformer for Gridsome with options for optimization loader.
 
 ## Installation
 
 ```bash
-yarn add gridsome-transformer-image
+yarn add gridsome-transformer-img
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ yarn add gridsome-transformer-image
 ```js
 export default {
   transformers: {
-    image: {
+    img: {
       uploadOptions: {
         folder: 'examples',
       },

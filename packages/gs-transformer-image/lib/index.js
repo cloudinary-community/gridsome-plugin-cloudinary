@@ -13,7 +13,7 @@ class ImageTransformer {
     return ['image/png', 'image/jpeg', 'image/gif', 'image/webp']
   }
 
-  constructor(options) {
+  constructor(options = {}) {
     this._options = options
 
     if (options.loader && options.loader.type === 'cloudinary') {
@@ -43,7 +43,7 @@ class ImageTransformer {
       }
     }
 
-    if (this._options.loader.type === 'cloudinary') {
+    if (this._options.loader && this._options.loader.type === 'cloudinary') {
       const CldImage = require('./types/CldImage')
       node.image = {
         type: new graphql.GraphQLObjectType(CldImage),

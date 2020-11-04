@@ -6,7 +6,7 @@
       "@mayas/cld-api": ["api/lib"],
       "gridsome-source-cloudinary": ["gs-cld-source/lib"],
       "gridsome-plugin-cloudinary": ["gs-cld-plugin/lib"],
-      "gridsome-transformer-image": ["gs-transformer-image/lib"]
+      "@mayas/gridsome-transformer-img": ["gs-transformer-image/lib"]
     }
   }
 }

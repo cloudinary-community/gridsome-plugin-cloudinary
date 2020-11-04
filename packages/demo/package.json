@@ -22,11 +22,11 @@
     "gridsome": "^0.7.0",
     "gridsome-plugin-cloudinary": "^0.0.8",
     "gridsome-source-cloudinary": "^0.0.8",
-    "gridsome-transformer-image": "^0.0.8",
+    "gridsome-transformer-img": "^0.0.8",
     "webpack-bundle-analyzer": "^3.9.0",
     "webpack-cli": "^4.1.0"
   },
-  "gitHead": "b1c5d7f2e4cbce4d3c7ab8dd96cbc333465c4f0b",
+  "gitHead": "7b32b4663c80dcd58faf76248fc8e96528a6d597",
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^3.0.1"
   }
