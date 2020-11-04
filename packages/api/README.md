@@ -2,7 +2,7 @@
 
 > More friendly API Wrapper for [Cloudinary](https://cloudinary.com) SDK
 
-## 🧰 Setup
+## 🧰&nbsp; Setup
 
 1. Add `@mayas/cld-api` dependency to your project
 
