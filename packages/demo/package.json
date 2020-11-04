@@ -26,7 +26,7 @@
     "webpack-bundle-analyzer": "^3.9.0",
     "webpack-cli": "^4.1.0"
   },
-  "gitHead": "a582d3c99a7bdf144dbb70b8686552a0b75cd815",
+  "gitHead": "b1c5d7f2e4cbce4d3c7ab8dd96cbc333465c4f0b",
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^3.0.1"
   }
