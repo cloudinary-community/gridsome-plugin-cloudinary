@@ -1,6 +1,6 @@
 {
   "name": "gs-image-node",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Image component for Gridsome",
   "keywords": [
     "image",
