@@ -1,6 +1,6 @@
 {
   "name": "@mayas/cld-api",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "More friendly API Wrapper for Cloudinary Node.js",
   "author": "Maya Shavin <maya@cloudinary.com>",
   "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/api#readme",
