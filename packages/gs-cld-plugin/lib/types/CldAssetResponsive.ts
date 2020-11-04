@@ -1,9 +1,10 @@
-import {
+const {
   GraphQLInt,
   GraphQLString,
   GraphQLObjectType,
   GraphQLList
-} from 'gridsome/graphql'
+} = require('gridsome/graphql')
+
 
 export const CldAssetResponsive = new GraphQLObjectType({
   name: 'CldAssetResponsive',

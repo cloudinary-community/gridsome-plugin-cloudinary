@@ -2,7 +2,7 @@ import CldAssetFixed from './types/CldAssetFixed'
 import CldAssetResponsive from './types/CldAssetResponsive'
 import { CldTransformation } from './types/CldTransformation'
 import CldAsset from './types/CldAsset'
-import { GraphQLList } from 'gridsome/graphql'
+const { GraphQLList } = require('gridsome/graphql')
 import { CLD_ASSET } from './constants'
 import { AssetInfo, getAssetInfo } from './helpers'
 const { setOptions, fixedAssetResolver, responsiveAssetResolver, upload, createImageNode } = require('./resolvers')

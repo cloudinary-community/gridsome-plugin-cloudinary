@@ -1,8 +1,8 @@
-import {
+const {
   GraphQLInt,
   GraphQLString,
   GraphQLInputObjectType
-} from 'gridsome/graphql'
+} = require('gridsome/graphql')
 
 export const CldResize = new GraphQLInputObjectType({
   name: 'CldResize',
