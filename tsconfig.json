@@ -3,10 +3,10 @@
   "compilerOptions": {
     "baseUrl": "./packages",
     "paths": {
-      "@mayas/api": ["api/lib"],
-      "@mayas/gridsome-source-cld": ["gs-cld-source/lib"],
-      "@mayas/gridsome-plugin-cld": ["gs-cld-plugin/lib"],
-      "@mayas/gridsome-transformer-image": ["gs-transformer-image/lib"]
+      "@mayas/cld-api": ["api/lib"],
+      "gridsome-source-cloudinary": ["gs-cld-source/lib"],
+      "gridsome-plugin-cloudinary": ["gs-cld-plugin/lib"],
+      "gridsome-transformer-image": ["gs-transformer-image/lib"]
     }
   }
 }

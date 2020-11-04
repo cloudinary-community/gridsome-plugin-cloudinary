@@ -1,6 +1,12 @@
 # `gridsome-transformer-image`
 
-> Image transformer for Gridsome
+> Image transformer for Gridsome with options for optimization loader.
+
+## Installation
+
+```bash
+yarn add gridsome-transformer-image
+```
 
 ## Usage
 

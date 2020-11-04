@@ -27,7 +27,7 @@
     ["jest-html-reporters", {
       "publicPath" : "./public/progress/",
       "filename": "api-report.html",
-      "pageTitle": "@mayas/api Report",
+      "pageTitle": "@mayas/cld-api Report",
       "expand": true
     }]
   ]

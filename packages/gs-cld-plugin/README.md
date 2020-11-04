@@ -1,6 +1,14 @@
-# `@mayas/gridsome-plugin-cld`
+# `gridsome-plugin-cloudinary`
 
-> Cloudinary plugin for Gridsome
+> Cloudinary general plugin for Gridsome
+
+[Demo site](https://gridsome-cloudinary.netlify.app/)
+
+## Installation
+
+```
+yarn add gridsome-plugin-cloudinary
+```
 
 ## Usage
 
@@ -9,7 +17,7 @@
 export default {
   plugins: [
     {
-      use: "@mayas/gridsome-plugin-cld",
+      use: "gridsome-plugin-cloudinary",
       options: {
         cloudName: process.env.CLOUDNAME,
         apiKey: process.env.API_KEY,

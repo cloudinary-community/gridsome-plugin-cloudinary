@@ -4,7 +4,7 @@ module.exports = {
   siteName: 'Gridsome - Cloudinary Source',
   plugins: [
     {
-      use: '@mayas/gridsome-source-cld',
+      use: 'gridsome-source-cloudinary',
       options: {
         cloudName: process.env.CLOUDNAME,
         apiKey: process.env.API_KEY,
@@ -37,7 +37,7 @@ module.exports = {
       }
     },
     {
-      use: "@mayas/gridsome-plugin-cld",
+      use: "gridsome-plugin-cloudinary",
       options: {
         cloudName: process.env.CLOUDNAME,
         apiKey: process.env.API_KEY,
