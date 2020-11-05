@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-cloudinary",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Cloudinary plugin for Gridsome",
   "author": "Maya Shavin <maya@cloudinary.com>",
   "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/gs-cld-transformer#readme",
@@ -12,7 +12,7 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -29,8 +29,7 @@
   },
   "dependencies": {
     "@mayas/cld-api": "^0.0.9",
-    "cross-env": "^7.0.2",
-    "ts-jest": "^26.4.3"
+    "cross-env": "^7.0.2"
   },
   "keywords": [
     "gridsome",
@@ -42,10 +41,14 @@
     "gridsome-transformer"
   ],
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.11.0",
+    "ts-node": "^9.0.0",
+    "ts-jest": "^26.4.3",
+    "typescript": "^4.0.5",
+    "jest": "^26.6.1"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "7b32b4663c80dcd58faf76248fc8e96528a6d597"
+  "gitHead": "3ee9daf6364e9493e462ee9f831faf0dea82dd08"
 }

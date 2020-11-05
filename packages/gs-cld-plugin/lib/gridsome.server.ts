@@ -1,7 +1,7 @@
-import CldAssetFixed from './types/CldAssetFixed'
-import CldAssetResponsive from './types/CldAssetResponsive'
+import { CldAssetFixed } from './types/CldAssetFixed'
+import { CldAssetResponsive } from './types/CldAssetResponsive'
 import { CldTransformation } from './types/CldTransformation'
-import CldAsset from './types/CldAsset'
+import { CldAsset } from './types/CldAsset'
 const { GraphQLList } = require('gridsome/graphql')
 import { CLD_ASSET } from './constants'
 import { AssetInfo, getAssetInfo } from './helpers'
@@ -36,7 +36,7 @@ class CloudinaryPlugin {
               height: 'Int',
               chainedTrans: { type: GraphQLList(CldTransformation)}
             },
-            resolve: (obj, args) => fixedAssetResolver({ ...obj, ...args })
+            resolve: async (obj, args) => (await fixedAssetResolver({ ...obj, ...args }))
           },
           responsive: {
             type: CldAssetResponsive,
@@ -45,7 +45,7 @@ class CloudinaryPlugin {
               maxWidth: 'Int',
               chainedTrans: { type: GraphQLList(CldTransformation)}
             },
-            resolve: (obj, args) => responsiveAssetResolver({ ...obj, ...args })
+            resolve: async (obj, args) => (await responsiveAssetResolver({ ...obj, ...args }))
           }
         }
       })

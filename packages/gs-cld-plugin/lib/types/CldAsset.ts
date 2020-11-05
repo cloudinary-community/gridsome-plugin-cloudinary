@@ -2,7 +2,7 @@ import { CldAssetFixed } from "./CldAssetFixed"
 import { CldAssetResponsive } from "./CldAssetResponsive"
 import { CLD_ASSET } from '../constants'
 
-const CldAsset = {
+export const CldAsset = {
   name: CLD_ASSET,
   interfaces: ['Node'],
   fields: {
@@ -12,5 +12,3 @@ const CldAsset = {
     responsive: { type: CldAssetResponsive }
   },
 }
-
-export default CldAsset

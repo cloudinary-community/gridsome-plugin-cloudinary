@@ -54,5 +54,3 @@ export const CldTransformation = new GraphQLInputObjectType({
     defaultImage: { type: GraphQLString }
   }
 })
-
-export default CldTransformation

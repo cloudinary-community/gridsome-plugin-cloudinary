@@ -14,5 +14,3 @@ export const CldAssetFixed = new GraphQLObjectType({
     srcSet: { type: GraphQLList(GraphQLString)}
   }
 })
-
-export default CldAssetFixed

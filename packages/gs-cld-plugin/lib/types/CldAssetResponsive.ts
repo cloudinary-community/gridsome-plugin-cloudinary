@@ -16,5 +16,3 @@ export const CldAssetResponsive = new GraphQLObjectType({
     srcSet: { type: GraphQLList(GraphQLString)}
   }
 })
-
-export default CldAssetResponsive
