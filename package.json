@@ -1,7 +1,7 @@
 {
   "name": "gridsome-plugin-cloudinary",
   "version": "0.0.6",
-  "description": "Cloudinary plugin for Gridsome",
+  "description": "Manage and optimize your Gridsome images with Cloudinary",
   "main": "./src/gridsome.client.js",
   "private": true,
   "workspaces": [

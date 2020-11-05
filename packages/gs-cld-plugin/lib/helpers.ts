@@ -11,7 +11,7 @@ export interface AssetInfo extends CloudinaryAssetData {
 export const getAssetInfo = (node = {}):AssetInfo[] => {
   const infos = []
   for (let key in node) {
-    const field = node[key]
+    const field = node[key] || {}
 
     if (!meetMinimumRequired(field)) continue
 

@@ -14,12 +14,12 @@ module.exports = {
           prefix: 'examples',
           max_results: 50
         },
-        // transformations: {
-        //   width: 200,
-        //   height: 200,
-        //   gravity: 'auto:subject',
-        //   crop: 'fill',
-        // }
+        transformations: {
+          width: 300,
+          height: 300,
+          gravity: 'auto:subject',
+          crop: 'fill',
+        }
       },
     },
     {
@@ -28,6 +28,13 @@ module.exports = {
         path: 'content/posts/**/*.md',
         typeName: 'Post',
         route: '/blog/:slug'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/docs/**/*.md',
+        typeName: 'Doc',
       }
     },
     {

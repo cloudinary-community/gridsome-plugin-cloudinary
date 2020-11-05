@@ -36,7 +36,7 @@ class CloudinaryPlugin {
               height: 'Int',
               chainedTrans: { type: GraphQLList(CldTransformation)}
             },
-            resolve: async (obj, args) => (await fixedAssetResolver({ ...obj, ...args }))
+            resolve: (obj, args) => fixedAssetResolver({ ...obj, ...args })
           },
           responsive: {
             type: CldAssetResponsive,
@@ -45,7 +45,7 @@ class CloudinaryPlugin {
               maxWidth: 'Int',
               chainedTrans: { type: GraphQLList(CldTransformation)}
             },
-            resolve: async (obj, args) => (await responsiveAssetResolver({ ...obj, ...args }))
+            resolve: (obj, args) => responsiveAssetResolver({ ...obj, ...args })
           }
         }
       })
