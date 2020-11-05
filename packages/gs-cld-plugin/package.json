@@ -28,7 +28,7 @@
     "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
   },
   "dependencies": {
-    "@mayas/cld-api": "^0.0.9",
+    "@mayas/cld-api": "^0.0.10",
     "cross-env": "^7.0.2"
   },
   "keywords": [
@@ -42,10 +42,10 @@
   ],
   "devDependencies": {
     "eslint": "^7.11.0",
-    "ts-node": "^9.0.0",
+    "jest": "^26.6.1",
     "ts-jest": "^26.4.3",
-    "typescript": "^4.0.5",
-    "jest": "^26.6.1"
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
   },
   "publishConfig": {
     "access": "public"
