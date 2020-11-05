@@ -13,7 +13,7 @@ export const getAssetInfo = (node = {}):AssetInfo[] => {
   for (let key in node) {
     const field = node[key] || {}
 
-    if (!meetMinimumRequired(field)) continue
+    if (!meetMinimumRequired(field || {})) continue
 
     infos.push({
       fieldName: key,

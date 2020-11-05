@@ -4858,10 +4858,10 @@ gridsome-plugin-algolia@^2.1.1:
     algoliasearch "^3.32.0"
     lodash.chunk "^4.2.0"
 
-gridsome-plugin-cloudinary@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-cloudinary/-/gridsome-plugin-cloudinary-0.0.11.tgz#d8b481ee9efa60e983067da43a74c72366c6f75a"
-  integrity sha512-DO5UCaiklo8Qu3Jir1jNIXcrbNp+xR9U5he8GR+zcPDNtGSkceKIjNc1s4rGPEpw8/SlNdjy2wGZeAWb1YgvGg==
+gridsome-plugin-cloudinary@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-cloudinary/-/gridsome-plugin-cloudinary-0.0.13.tgz#4eb398c53bb941929e9dd5b5e1293c282c06141d"
+  integrity sha512-aSb/y2pZ0ehIuQviPpZZiw/MvX289PBGl+u4EUI2aEA3mr/94C8VpFUOLjahUsBxZzGa25Khv8ZC5dAAce53/g==
   dependencies:
     "@mayas/cld-api" "^0.0.11"
     cross-env "^7.0.2"

@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-cloudinary",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "description": "Cloudinary plugin for Gridsome",
   "author": "Maya Shavin <maya@cloudinary.com>",
   "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/gs-cld-transformer#readme",

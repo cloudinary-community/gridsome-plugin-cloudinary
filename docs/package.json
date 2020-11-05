@@ -15,7 +15,7 @@
     "graphql-playground-html": "^1.6.22",
     "gridsome": "^0.7.21",
     "gridsome-plugin-algolia": "^2.1.1",
-    "gridsome-plugin-cloudinary": "^0.0.11",
+    "gridsome-plugin-cloudinary": "^0.0.13",
     "gridsome-plugin-tailwindcss": "^3.0.1",
     "gridsome-source-cloudinary": "^0.0.11",
     "gridsome-transformer-img": "^0.0.11",
