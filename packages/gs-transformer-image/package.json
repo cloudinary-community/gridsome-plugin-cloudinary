@@ -1,6 +1,6 @@
 {
   "name": "gridsome-transformer-img",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Transformer for image node",
   "author": "Maya Shavin <maya@cloudinary.com>",
   "homepage": "https://github.com/mayashavin/gridsome-plugin-cloudinary/tree/master/packages/gs-transformer-image#readme",
@@ -32,7 +32,7 @@
     "gridsome-transformer"
   ],
   "dependencies": {
-    "@mayas/cld-api": "^0.0.10"
+    "@mayas/cld-api": "^0.0.11"
   },
   "publishConfig": {
     "access": "public"

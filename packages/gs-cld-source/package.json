@@ -1,6 +1,6 @@
 {
   "name": "gridsome-source-cloudinary",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Source plugin of Cloudinary for Gridsome",
   "keywords": [
     "gridsome",
@@ -33,7 +33,7 @@
     "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
   },
   "dependencies": {
-    "@mayas/cld-api": "^0.0.10",
+    "@mayas/cld-api": "^0.0.11",
     "cloudinary-core": "^2.11.3",
     "cross-env": "^7.0.2",
     "lodash.snakecase": "^4.1.1",
