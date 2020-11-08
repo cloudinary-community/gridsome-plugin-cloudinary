@@ -4,10 +4,10 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: [
-    'components/**/*.vue',
-    'layouts/**/*.vue',
-    'pages/**/*.vue',
-    'gridsome.config.js'
+    // 'components/**/*.vue',
+    // 'layouts/**/*.vue',
+    // 'pages/**/*.vue',
+    // 'gridsome.config.js'
   ],
   theme: {
     extend: {
@@ -29,5 +29,4 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-  safelist: ['inline']
 }
