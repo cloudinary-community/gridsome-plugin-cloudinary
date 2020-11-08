@@ -36,7 +36,7 @@ export default {
       title: "Homepage",
       meta: [
         { key: 'description', name: 'description', content: this.$static.metadata.siteName },
-        { key: 'twitter:card', name: 'twitter:card', content: 'summary'},
+        { key: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
         { key: 'twitter:creator', name: 'twitter:creator', content: '@mayashavin'},
         { property: 'og:url', content: 'https://gridsome-cloudinary.netlify.app'},
         { property: 'og:title', content: this.$static.metadata.siteName },
