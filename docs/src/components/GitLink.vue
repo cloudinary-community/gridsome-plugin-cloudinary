@@ -55,6 +55,7 @@ a {
     height: 18px;
     vertical-align: -6px;
     margin-right: 4px;
+    display: inline;
   }
 
   &.large {
