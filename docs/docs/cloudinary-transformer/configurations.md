@@ -1,11 +1,11 @@
 ---
 title: Options
-slug: image-optimizer-options
-category: Image Optimizer Plugin
+slug: cloudinary-transformer-options
+category: Cloudinary Image Transformer
 position: 2
 ---
 
-To set configurations for Cloudinary source plugin, we use inner `options` section of the `gridsome-plugin-cloudinary` in `gridsome.config.js`.
+To set configurations for Cloudinary image transformer, we use inner `options` section of the `gridsome-plugin-cloudinary` in `gridsome.config.js`.
 
 The list of available options are shown as below
 
@@ -14,7 +14,7 @@ The list of available options are shown as below
 * Type: `String`
 * `required`
 
-The cloud name associated with your Cloudinary account. It is used to configure and enable Cloudinary features such as generating delivery asset URL. 
+The cloud name associated with your Cloudinary account. It is used to configure and enable Cloudinary features such as generating delivery asset URL.
 
 ```js
 /* gridsome.config.js */

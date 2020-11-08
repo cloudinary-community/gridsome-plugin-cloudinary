@@ -1,8 +1,7 @@
 ---
 title: Setup
-slug: image-optimizer
-category: Image Optimizer Plugin
-description: A simple way to get existing Cloudinary assets to use in Gridsome apps with optimization
+slug: cloudinary-transformer
+category: Cloudinary Image Transformer
 categoryPosition: 3
 position: 1
 ---
@@ -24,7 +23,7 @@ You can set up the source plugin easily in two following steps:
   npm i gridsome-plugin-cloudinary
   ```
 
-2. Add `gridsome-plugin-cloudinary` as a plugin to `plugins` section of `nuxt.config.js`:
+2. Add `gridsome-plugin-cloudinary` as a plugin to `plugins` section of `gridsome.config.js`:
 
   ```js
   /* gridsome.config.js */
@@ -41,6 +40,6 @@ You can set up the source plugin easily in two following steps:
   }
   ```
 
-See [Options](#configure-options) for all available options to initialize Cloudinary source plugin.
+See [Options](/cloudinary-transformer-options) for all available options to initialize Cloudinary source plugin.
 
 And that's it 🎉!

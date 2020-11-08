@@ -241,7 +241,7 @@ export default {
         transformations: {
           width: 200,
           height: 200,
-          gravity: 'auto:subject', //auto detect the main subject as center for cropping
+          gravity: 'auto', //auto detect the main subject as center for cropping
           crop: 'fill',
         }
       },

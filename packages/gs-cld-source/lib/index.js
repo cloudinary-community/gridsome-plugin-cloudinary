@@ -53,6 +53,7 @@ class CldImagesSource {
           ...asset,
           url: optimizedUrl,
           secure_url: optimizedUrl,
+          id: asset.public_id,
         }
   
         collection.addNode(node)

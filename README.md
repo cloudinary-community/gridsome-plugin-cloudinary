@@ -1,5 +1,7 @@
 # Manage your images with Cloudinary in Gridsome apps
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/26ef3048-66c3-46a7-b719-49dcfd1dcd85/deploy-status)](https://app.netlify.com/sites/gridsome-cloudinary/deploys)
+
 > [Cloudinary](https://cloudinary.com) integration for [Gridsome](https://gridsome.org)
 
 [Demo site](https://gridsome-cloudinary.netlify.app/)

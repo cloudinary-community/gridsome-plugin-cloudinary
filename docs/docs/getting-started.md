@@ -15,7 +15,7 @@ View our [Demo site](/demo) for some examples.
 
 ## Available plugins
 
-[Image transformer](/image-transformer) · [Source plugin](/source-plugin) · [General plugin](/general-plugin)
+[Generic Image Transformer](/image-transformer) · [Cloudinary Source Plugin](/source-plugin) · [Cloudinary Transformer](/cloudinary-transformer)
 
 ## What is Cloudinary?
 

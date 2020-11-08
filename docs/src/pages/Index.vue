@@ -5,8 +5,8 @@
       <h2>{{ $static.metadata.siteDescription }}</h2>
       <nav>
         <Shortcut link="/source-plugin" text="Source Plugin" icon="cloud-icon" />
-        <Shortcut link="/image-optimizer" text="Image Optimizer" icon="sliders-icon" />
-        <Shortcut link="/image-transformer" text="Image Transformer" icon="image-icon" />
+        <Shortcut link="/cloudinary-transformer" text="Cloudinary Image Transformer" icon="sliders-icon" />
+        <Shortcut link="/image-transformer" text="Generic Image Transformer" icon="image-icon" />
       </nav>
       <GitLink class="git" size="large" />
     </div>

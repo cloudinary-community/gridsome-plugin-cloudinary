@@ -1,5 +1,5 @@
 [build]
-  command = "gridsome build"
-  publish = "dist"
+  command = "yarn build"
+  publish = "docs/dist"
 [build.environment]
   NODE_VERSION = "10"

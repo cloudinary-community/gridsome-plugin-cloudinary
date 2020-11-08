@@ -29,4 +29,5 @@ module.exports = {
   },
   variants: {},
   plugins: [],
+  safelist: ['inline']
 }

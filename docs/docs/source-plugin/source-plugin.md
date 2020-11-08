@@ -2,6 +2,7 @@
 title: Setup
 slug: source-plugin
 category: Cloudinary Source Plugin
+categoryPosition: 2
 description: Cloudinary Source Plugin is a simple way to get existing Cloudinary assets to use in Gridsome apps with optimization.
 position: 1
 ---
@@ -23,7 +24,7 @@ You can set up the source plugin easily in two following steps:
   npm i gridsome-source-cloudinary
   ```
 
-2. Add `gridsome-source-cloudinary` as a plugin to `plugins` section of `nuxt.config.js`:
+2. Add `gridsome-source-cloudinary` as a plugin to `plugins` section of `gridsome.config.js`:
 
   ```js
   /* gridsome.config.js */
@@ -40,6 +41,6 @@ You can set up the source plugin easily in two following steps:
   }
   ```
 
-See [Options](#configure-options) for all available options to initialize Cloudinary source plugin.
+See [Options](/source-plugin-options) for all available options to initialize Cloudinary source plugin.
 
 And that's it 🎉!

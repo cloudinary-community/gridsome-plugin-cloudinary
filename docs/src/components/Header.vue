@@ -2,6 +2,15 @@
   <header class="header" :class="{'header--scrolled' : pageScrolled}">
     <Logo :color="logoColor" />
     <nav class="nav">
+      <a
+        href="https://github.com/mayashavin/gridsome-plugin-cloudinary"
+        title="Git-repository"
+        aria-label="Cloudinary plugins for Gridsome on Github"
+        class="mt-3"
+        style="color:inherit;"
+      >
+        <github-icon class="fill-current" />
+      </a>
       <ThemeSwitch v-on:theme-change="updateLogo" />
       <MenuToggle v-if="menuToggle" />
     </nav>
@@ -13,12 +22,14 @@ import ThemeSwitch from '~/components/ThemeSwitch.vue'
 import MenuToggle from '~/components/MenuToggle.vue'
 import Logo from '~/components/Logo.vue'
 import throttle from 'lodash/throttle'
+import { GithubIcon } from 'vue-feather-icons'
 
 export default {
   components: {
     ThemeSwitch,
     MenuToggle,
-    Logo
+    Logo,
+    GithubIcon
   },
   props: {
     menuToggle: {
