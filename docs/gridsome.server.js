@@ -35,13 +35,6 @@ module.exports = function (api) {
 
   api.loadSource(async store => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api
-
-    // const collection = store.getCollection('Menu')
-
-    // const node = collection.addNode({
-    //   title: 'Demos',
-
-    // })
   })
 
   api.createPages(({ createPage }) => {

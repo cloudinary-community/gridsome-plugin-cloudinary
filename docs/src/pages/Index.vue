@@ -31,16 +31,17 @@ export default {
     GitLink,
     Shortcut
   },
-  data() {
-    return {
-      description: 'Cloudinary'
-    }
-  },
   metaInfo() {
     return {
-      title: this.description,
+      title: "Homepage",
       meta: [
-        { key: 'description', name: 'description', content: 'A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click.' }
+        { key: 'description', name: 'description', content: this.$static.metadata.siteName },
+        { key: 'twitter:card', name: 'twitter:card', content: 'summary'},
+        { key: 'twitter:creator', name: 'twitter:creator', content: '@mayashavin'},
+        { property: 'og:url', content: 'https://gridsome-cloudinary.netlify.app'},
+        { property: 'og:title', content: this.$static.metadata.siteName },
+        { property: 'og:description', content: this.$static.metadata.siteDescription },
+        { property: 'og:image', content: "https://res.cloudinary.com/mayashavin/image/upload/v1604572376/gridinary/Group_7.png" },        
       ]
     }
   }
