@@ -51,13 +51,14 @@ export default {
 
 .main {
   padding: 100px 30px 30px 30px;
-  max-width: 68vw;
+  /* max-width: 68vw; */
   transition: transform .15s ease-in-out;
 
   @include respond-above(sm) {
     /* padding: 100px 30px 30px; */
     transform: translateX(300px);
     width: calc(100% - 300px);
+    max-width: 68vw;
   }
 
   @include respond-above(md) {

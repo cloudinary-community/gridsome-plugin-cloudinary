@@ -33,12 +33,7 @@
     "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
   },
   "dependencies": {
-    "@mayas/cld-api": "^0.0.11",
-    "cloudinary-core": "^2.11.3",
-    "cross-env": "^7.0.2",
-    "lodash.snakecase": "^4.1.1",
-    "webpack-bundle-analyzer": "^3.9.0",
-    "webpack-cli": "^4.1.0"
+    "@mayas/cld-api": "^0.0.11"
   },
   "devDependencies": {
     "eslint": "^7.11.0"

@@ -75,6 +75,13 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content-examples/',
+        typeName: 'PostCld'
+      }
+    },
+    {
       use: "gridsome-plugin-cloudinary",
       options: {
         cloudName: process.env.CLOUDNAME,

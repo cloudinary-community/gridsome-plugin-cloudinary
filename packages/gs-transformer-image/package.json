@@ -26,10 +26,12 @@
   "keywords": [
     "gridsome",
     "cloudinary",
-    "jamstack",
     "image",
     "optimization",
-    "gridsome-transformer"
+    "gridsome-transformer",
+    "gridsome-plugin",
+    "img",
+    "optimization"
   ],
   "dependencies": {
     "@mayas/cld-api": "^0.0.11"

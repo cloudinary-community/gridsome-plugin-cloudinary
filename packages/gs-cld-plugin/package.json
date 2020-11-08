@@ -28,8 +28,7 @@
     "url": "https://github.com/mayashavin/gridsome-plugin-cloudinary/issues"
   },
   "dependencies": {
-    "@mayas/cld-api": "^0.0.11",
-    "cross-env": "^7.0.2"
+    "@mayas/cld-api": "^0.0.11"
   },
   "keywords": [
     "gridsome",

@@ -6,7 +6,7 @@ categoryPosition: 3
 position: 1
 ---
 
-[Demo site](/demo)
+[Demo site](/demo/cloudinary-transformer)
 
 To use the plugin, you need a Cloudinary account first. [Register for a free account](https://cloudinary.com/users/register/free) if you haven't got one yet.
 

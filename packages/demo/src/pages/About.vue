@@ -52,6 +52,7 @@ query {
 </page-query>
 <script>
 import PostList from '../components/PostList'
+
 export default {
   metaInfo: {
     title: 'About us'

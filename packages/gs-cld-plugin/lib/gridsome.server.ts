@@ -5,7 +5,7 @@ import { CldAsset } from './types/CldAsset'
 const { GraphQLList } = require('gridsome/graphql')
 import { CLD_ASSET } from './constants'
 import { AssetInfo, getAssetInfo } from './helpers'
-const { setOptions, fixedAssetResolver, responsiveAssetResolver, upload, createImageNode } = require('./resolvers')
+const { setOptions, fixedAssetResolver, responsiveAssetResolver, createImageNode } = require('./resolvers')
 
 class CloudinaryPlugin {
   static defaultOptions() { 

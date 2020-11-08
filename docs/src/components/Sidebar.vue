@@ -10,6 +10,14 @@
               </li>
             </ul>
           </li>
+          <li key="demos">
+            <g-link class="topic" to="/demo">Demos</g-link>
+            <ul class="sub-topic-container">
+              <li v-for="heading in demos" :key="heading.value">
+                <g-link class="sub-topic" :to="heading.url">{{heading.value}}</g-link>
+              </li>              
+            </ul>
+          </li>
           <li class="section" v-for="node in menu" :key="node.id">
             <h3 class="section-title mt-4 mb-2 text-md">{{node.title}}</h3>
             <ul>
@@ -70,6 +78,17 @@ export default {
   watch: {
     '$route' () {
       this.$store.commit('closeSidebar')
+    }
+  },
+  data() {
+    return {
+      demos: [{
+        value: "Cloudinary Source Plugin",
+        url: "/demo/cloudinary-source"
+      },{
+        value: "Cloudinary Image Transformer",
+        url: "/demo/cloudinary-transformer"
+      }]
     }
   },
   computed: {

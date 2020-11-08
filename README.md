@@ -4,7 +4,7 @@
 
 > [Cloudinary](https://cloudinary.com) integration for [Gridsome](https://gridsome.org)
 
-[Demo site](https://gridsome-cloudinary.netlify.app/)
+[Demo site](https://gridsome-cloudinary.netlify.app/demo)
 
 Optimize and manage your images and videos in your Gridsome application with the available Cloudinary plugins.
 

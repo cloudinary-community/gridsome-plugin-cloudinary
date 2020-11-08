@@ -7,7 +7,7 @@ description: Cloudinary Source Plugin is a simple way to get existing Cloudinary
 position: 1
 ---
 
-[Demo site](/demo)
+[Demo site](/demo/cloudinary-source)
 
 To use the plugin, you need a Cloudinary account first. [Register for a free account](https://cloudinary.com/users/register/free) if you haven't got one yet.
 
