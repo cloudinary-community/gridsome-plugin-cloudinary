@@ -10,7 +10,7 @@ Optimize and manage your images and videos in your Gridsome application with the
 
 ## Available plugins
 
-[Image transformer plugin](https://github.com/mayashavin/gridsome-plugin-cloudinay/packages/gs-cld-transformer) · [Source plugin](https://github.com/mayashavin/gridsome-plugin-cloudinay/packages/gs-cld-source) · [General plugin](https://github.com/mayashavin/gridsome-plugin-cloudinay/packages/gs-cld-plugin)
+[Image transformer plugin](https://github.com/mayashavin/gridsome-plugin-cloudinay/packages/gs-cld-transformer) · [Source plugin](https://github.com/mayashavin/gridsome-plugin-cloudinay/packages/gs-cld-source) · [Cloudinary image plugin](https://github.com/mayashavin/gridsome-plugin-cloudinay/packages/gs-cld-plugin)
 
 ## What is Cloudinary?
 
