@@ -29,7 +29,7 @@ Some of the features the plugins offer are listed below:
 
 ## Development & Contribution
 
-1. Clone [this repository](https://github.com/mayashavin/gridsome-plugin-cloudinary)
+1. Fork [this repository](https://github.com/mayashavin/gridsome-plugin-cloudinary)
 2. Make the changes in the related package project, and run any of the following commands to debug/check your status.
 
   * `yarn build:demo` - build the demo site
